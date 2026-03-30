@@ -37,19 +37,13 @@ Switched traffic to Green by updating Service selector
 
 
 📁 Project Structure
+
 blue-green-deployment/
 │
 ├── blue-app/
-│   ├── Dockerfile
-│   └── index.html
-│
 ├── green-app/
-│   ├── Dockerfile
-│   └── index.html
-│
 ├── k8s/
 │   ├── blue-deployment.yaml
 │   ├── green-deployment.yaml
-│   └── service.yaml
-│
+│   ├── service.yaml
 └── README.md
